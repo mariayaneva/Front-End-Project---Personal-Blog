@@ -1,6 +1,6 @@
 # Front-End-Project---Personal-Blog
 <div style="font-size: 1em"><b> Functionalities </b></div>
-<hr style="height: 0.05em">
+<br>
 <ul>
   <li> Registration Form </li>
   <li> Login Form </li>
