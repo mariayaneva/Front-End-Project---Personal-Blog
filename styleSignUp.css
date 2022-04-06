@@ -1,0 +1,114 @@
+body
+{
+    font-size: 16px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(240,160,239,1) 0%,
+    rgba(252,209,251,1) 26%, rgba(244,200,213,1) 35%, rgba(242,210,215,1) 43%,
+    rgba(255,202,202,1) 51%, rgba(240,210,207,1) 57%, rgba(254,221,191,1) 82%, rgba(249,248,246,1) 100%);
+}
+
+*
+{
+    font-family: Helvetica, sans-serif;
+}
+
+.rectangle
+{
+    max-width: 32 rem;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    transform: translate(400px, 92px);
+    padding: 30px;
+    margin-left: 140px;
+    margin-top: 80px;
+    height: 350px;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+
+.title
+{
+    font-size: 30px;
+    padding: 5px;
+}
+
+.subtitle
+{
+    font-size: 24px;
+    transform: translate(-129px, 7px);
+    color: #848694;
+    padding: 2.5rem;
+    white-space:nowrap;
+}
+
+.form-login
+{
+    margin-top: 126px;
+    transform: translate(-318px, 10px);
+}
+
+.username
+{
+    width: 300%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: lightgrey;
+    margin-bottom: 20px;
+    margin-left: -51px;
+}
+
+.email
+{
+    width: 118%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: lightgrey;
+    margin-left: -51px;
+}
+
+.email:focus
+{
+    border-color: #D28CD1;
+}
+
+.password
+{
+    width: 118%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: lightgrey;
+    margin-top: 31px;
+    margin-left: -51px;
+}
+
+.password:focus
+{
+    border-color: #D28CD1;
+}
+
+.button
+{
+    background-color: #FBEADA;
+    color: white;
+    border-radius: 20px;
+    width: 130px;
+    height: 13%;
+    border: none;
+    max-width: 10rem;
+    margin-left: 63%;
+    margin-top: 8%;
+}
+
+.button:hover
+{
+    border: 1px solid gray;
+}
+
+#toLogin
+{
+    margin: 14px 3px 3px 145px;
+    white-space: nowrap;
+    font-size: 12px;
+}

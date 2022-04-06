@@ -1,0 +1,99 @@
+body
+{
+    font-size: 16px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(240,160,239,1) 0%,
+     rgba(252,209,251,1) 26%, rgba(244,200,213,1) 35%, rgba(242,210,215,1) 43%,
+     rgba(255,202,202,1) 51%, rgba(240,210,207,1) 57%, rgba(254,221,191,1) 82%, rgba(249,248,246,1) 100%);
+}
+
+*
+{
+    font-family: Helvetica, sans-serif;
+}
+
+.rectangle
+{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    transform: translate(400px, 92px);
+    padding: 30px;
+    margin-left: 140px;
+    margin-top: 80px;
+    height: 350px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.title
+{
+    font-size: 28px;
+}
+
+.subtitle
+{
+    font-size: 20px;
+    transform: translate(-120px, 7px);
+    color: #848694;
+    padding: 2.5rem;
+}
+
+.form-login
+{
+    margin-top: 126px;
+    transform: translate(-206px, 10px);
+}
+
+.email
+{
+    width: 190%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: lightgrey;
+}
+
+.email:focus
+{
+    border-color: #D28CD1;
+}
+
+.password
+{
+    width: 190%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: lightgrey;
+    margin-top: 46px;
+}
+
+.password:focus
+{
+    border-color: #D28CD1;
+}
+
+.button
+{
+    background-color: #FBEADA;
+    color: white;
+    border-radius: 20px;
+    width: 54%;
+    height: 15%;
+    border: none;
+    max-width: 10rem;
+    margin-left: 135%;
+    margin-top: 20%;
+}
+
+.btn-submit:hover
+{
+    border: 1px solid gray;
+}
+
+.new-account
+{
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(179px, 27px);
+    text-decoration: none;
+}
+

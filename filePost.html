@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="storagePost.css">
+
+<script type="text/javascript" src="filePost.js" defer></script> 
+<script type="text/javascript" src="readFromFile.js" defer></script> <!--  HTML before JS-->
+
+<title>Blog Post</title>
+
+</head>
+<body>
+
+    <div id = "article">
+        <div id="header"></div>
+        <div id="content"></div>
+    </div>
+
+    <ol id="comments"></ol>
+
+<form>
+        <label for="create"> Your Comment: </label><br>
+
+        <textarea maxlength = "200" type="text" id="text" placeholder="Write text here..."
+        rows="5" cols="70"></textarea> <br><br>
+
+        <input type="submit" id="button" value="Add Comment" onclick="return addComment()">
+        
+</form>
+
+<div><a href="blogPosts.html">Back to all posts</a></div>
+    </body>
+    </html>
